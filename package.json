@@ -1,0 +1,23 @@
+{
+  "name": "koa-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "./node_modules/mocha/bin/_mocha",
+    "seed": "node src/models/seed.js"
+  },
+  "dependencies": {
+    "faker": "^3.1.0",
+    "koa": "^1.2.4",
+    "koa-json": "^1.1.3",
+    "koa-logger": "^1.3.1",
+    "koa-route": "^2.4.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "mocha-jscs": "^5.0.1",
+    "mocha-jshint": "^2.3.1"
+  }
+}
