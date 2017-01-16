@@ -25,7 +25,7 @@
         movies.push({
           id: i,
           title: faker.random.words(),
-          year: faker.date.past(),
+          year: faker.date.past().getFullYear(),
           poster: faker.image.imageUrl()
         });
       }
